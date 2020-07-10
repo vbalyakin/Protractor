@@ -1,0 +1,50 @@
+{
+    "searchField": {
+        "selector": "[id = 'q']"
+    },
+    "searchButton": {
+        "selector": "[id = 'go']"
+    },
+    "firstHarryBook": {
+        "selector": "div#art_item_121626 div.search__cover"
+    },
+    "author": {
+        "selector": "//div[text()[contains(.,'Дж. К. Роулинг')]]"
+    },
+    "nameOfBook": {
+        "selector": "//div[text()[contains(.,'Гарри Поттер и философский камень')]]"
+    },
+    "price": {
+        "selector": "//span[text()[contains(.,'249 ')]]"
+    },
+    "buyButton": {
+        "selector": "button.coolbtn.btn-green.a_buyany"
+    },
+    "cartButton": {
+        "selector": "div.art-box__top a[href*='/pages/new_basket/']"
+    },
+    "cartActive": {
+        "selector": "a.art-button.art-buttons__basket.art-buttons__basket_active"
+    },
+    "myBooks": {
+        "selector": "div.btn__content"
+    },
+    "cartInMyBooks": {
+        "selector": "a[href='/pages/new_basket/'] span.my-books-link__name"
+    },
+    "itemsPrice": {
+        "selector": "span.simple-price"
+    },
+    "cartOn": {
+        "selector": "div.my-books-link.my-books-link_basket.my-books-link_disabled"
+    },
+    "buyAndDownload": {
+        "selector": "button.btn.btn_green.btn_buy"
+    },
+    "harryAuthor": {
+        "selector":"//div[@class='art__author']//a[text()[contains(.,'Дж. К. Роулинг')]]"
+    },
+    "cartBook": {
+        "selector": "a[title*='Гарри Поттер и философский камень']"
+    }
+}
